@@ -1,0 +1,7 @@
+Console.WriteLine("Введите число");
+int n = Convert.ToInt32(Console.ReadLine());
+string text = Convert.ToString(n);
+if (text.Length > 2)
+    Console.WriteLine(text[2]);
+else if (text.Length <= 2)
+    Console.WriteLine("Третьей цифры нет");
